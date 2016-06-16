@@ -2400,17 +2400,17 @@
 <wire x1="47.532553125" y1="31.75" x2="48.340778125" y2="32.084778125" width="0.6096" layer="52" curve="45.000111"/>
 <wire x1="48.340778125" y1="32.084778125" x2="49.53" y2="33.274" width="0.6096" layer="52"/>
 <text x="49.53" y="57.912" size="0.6096" layer="51" font="vector" ratio="12" align="bottom-center">v0.3</text>
-<text x="49.53" y="57.912" size="0.6096" layer="1" font="vector" ratio="12" align="bottom-center">v0.2</text>
+<text x="49.53" y="57.912" size="0.6096" layer="1" font="vector" ratio="12" align="bottom-center">v0.3</text>
 <rectangle x1="2.54" y1="74.93" x2="48.26" y2="86.995" layer="52"/>
 </plain>
 <libraries>
 <library name="flowerpad">
 <packages>
 <package name="NONE">
-<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8382"/>
+<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8636"/>
 </package>
 <package name="2-2.CORNER">
-<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8382"/>
+<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8636"/>
 <polygon width="0.0254" layer="1">
 <vertex x="0.702484375" y="0.854884375"/>
 <vertex x="0.3240375" y="0.4764375" curve="-45"/>
@@ -2549,7 +2549,7 @@
 </polygon>
 </package>
 <package name="3-3">
-<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8382"/>
+<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8636"/>
 <polygon width="0.0254" layer="1">
 <vertex x="0.702484375" y="0.854884375"/>
 <vertex x="0.3240375" y="0.4764375" curve="-45"/>
@@ -2762,7 +2762,7 @@
 </polygon>
 </package>
 <package name="4-4">
-<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8382"/>
+<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8636"/>
 <polygon width="0.0254" layer="1">
 <vertex x="0.854884375" y="-0.702484375"/>
 <vertex x="0.4764375" y="-0.3240375" curve="-45"/>
@@ -3079,26 +3079,26 @@ Please make sure your boards conform to these design rules.</description>
 <param name="msDrill" value="13mil"/>
 <param name="msMicroVia" value="13mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
-<param name="rvPadTop" value="0.25"/>
-<param name="rvPadInner" value="0.25"/>
-<param name="rvPadBottom" value="0.25"/>
-<param name="rvViaOuter" value="0.25"/>
-<param name="rvViaInner" value="0.25"/>
+<param name="rvPadTop" value="0"/>
+<param name="rvPadInner" value="0"/>
+<param name="rvPadBottom" value="0"/>
+<param name="rvViaOuter" value="0"/>
+<param name="rvViaInner" value="0"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="7mil"/>
-<param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="7mil"/>
-<param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="7mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="7mil"/>
-<param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="7mil"/>
-<param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMinPadTop" value="0mil"/>
+<param name="rlMaxPadTop" value="0mil"/>
+<param name="rlMinPadInner" value="0mil"/>
+<param name="rlMaxPadInner" value="0mil"/>
+<param name="rlMinPadBottom" value="0mil"/>
+<param name="rlMaxPadBottom" value="0mil"/>
+<param name="rlMinViaOuter" value="0mil"/>
+<param name="rlMaxViaOuter" value="0mil"/>
+<param name="rlMinViaInner" value="0mil"/>
+<param name="rlMaxViaInner" value="0mil"/>
+<param name="rlMinMicroViaOuter" value="0mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMinMicroViaInner" value="0mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
@@ -3123,7 +3123,7 @@ Please make sure your boards conform to these design rules.</description>
 <param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="0"/>
-<param name="useDiameter" value="13"/>
+<param name="useDiameter" value="29"/>
 <param name="maxErrors" value="50"/>
 </designrules>
 <autorouter>

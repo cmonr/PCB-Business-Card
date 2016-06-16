@@ -179,7 +179,7 @@ DIN A4, landscape with location and doc. field</description>
 <library name="flowerpad">
 <packages>
 <package name="4-4">
-<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8382"/>
+<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8636"/>
 <polygon width="0.0254" layer="1">
 <vertex x="0.854884375" y="-0.702484375"/>
 <vertex x="0.4764375" y="-0.3240375" curve="-45"/>
@@ -454,7 +454,7 @@ DIN A4, landscape with location and doc. field</description>
 </polygon>
 </package>
 <package name="2-2.CORNER">
-<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8382"/>
+<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8636"/>
 <polygon width="0.0254" layer="1">
 <vertex x="0.702484375" y="0.854884375"/>
 <vertex x="0.3240375" y="0.4764375" curve="-45"/>
@@ -593,7 +593,7 @@ DIN A4, landscape with location and doc. field</description>
 </polygon>
 </package>
 <package name="3-3">
-<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8382"/>
+<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8636"/>
 <polygon width="0.0254" layer="1">
 <vertex x="0.702484375" y="0.854884375"/>
 <vertex x="0.3240375" y="0.4764375" curve="-45"/>
@@ -806,10 +806,10 @@ DIN A4, landscape with location and doc. field</description>
 </polygon>
 </package>
 <package name="NONE">
-<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8382"/>
+<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8636"/>
 </package>
 <package name="1-1">
-<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8382"/>
+<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8636"/>
 <polygon width="0.0254" layer="1">
 <vertex x="0.702484375" y="0.854884375"/>
 <vertex x="0.3240375" y="0.4764375" curve="-45"/>
@@ -880,7 +880,7 @@ DIN A4, landscape with location and doc. field</description>
 </polygon>
 </package>
 <package name="2-2">
-<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8382"/>
+<pad name="VIA" x="0" y="0" drill="0.8128" diameter="0.8636"/>
 <polygon width="0.0254" layer="1">
 <vertex x="0.702484375" y="0.854884375"/>
 <vertex x="0.3240375" y="0.4764375" curve="-45"/>
